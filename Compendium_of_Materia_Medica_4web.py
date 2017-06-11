@@ -1,4 +1,3 @@
-31 lines (19 sloc)  879 Bytes
  # -*- coding: utf-8 -*- 
 from flask import Flask, render_template, request, escape
 
