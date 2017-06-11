@@ -4,13 +4,13 @@ from flask import Flask, render_template, request, escape
 app = Flask(__name__)
 
 
-@app.route('/pick_a_flower', methods=['POST'])
+@app.route('/choose_a_plant', methods=['POST'])
 def pick_a_flower() -> 'html':
     """提取用户web 请求POST方法提交的数据（输入），不执行任何动作（处理），直接返回（输出）。"""
-    flower_name = request.form['flower_name']	
+    plant_name = request.form['plant_name']	
     return render_template('results.html',
                            the_title = '请输入植物名：',
-                           the_flower = flower_name 
+                           the_plant = plant_name 
                            )
                           
  
