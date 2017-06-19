@@ -4,7 +4,6 @@ from pick_medica_value import medica_value
 
 app = Flask(__name__)
 
-
 @app.route('/pick_a_medica', methods=['POST'])
 def pick_a_medica() -> 'html':
     try:
@@ -20,13 +19,7 @@ def pick_a_medica() -> 'html':
         return render_template('entry.html',
                            the_output_prompt='输入错误',
                            the_title='欢迎来到本草纲目')
-                          
- 
-    
-    
-    
-    
-    
+     
 @app.route('/')
 @app.route('/entry')
 def entry_page() -> 'html':
