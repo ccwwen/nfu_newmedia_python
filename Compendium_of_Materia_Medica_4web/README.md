@@ -12,8 +12,9 @@
 ## 从输入到输出，本组作品使用了：
 ### 模块
 * [requests](http://docs.python-requests.org/zh_CN/latest/user/quickstart.html#id2)
-* [json]
+* [json](http://www.runoob.com/python/python-json.html)
 * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.zh.html)
+* [time](https://docs.python.org/3/library/time.html）
 ### API
  http://api.jisuapi.com/bencao/detail?appkey=bdc8ee0bb0227112&detailid={n}&isdetailed={n}
 
