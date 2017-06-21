@@ -29,7 +29,7 @@
 
 後端伺服器web 响应：webapp_pick_a_medica.py 中 执行 了@app.route('/') 下的 entry_page()函数，以HTML模版templates/entry.html及一个含指标代码及名称的字典产出的产生《欢迎来到本草纲目》的HTML页面
 
-前端浏览器收到web 响应：出现HTML页面有HTML表单的输入 input 类型(type) 为"text"，变数名称(name)为'bencao_name'，使用了HTML5的datalist 定义在 list="q" 及 datalist标签，详见HTML模版templates/entry.html
+前端浏览器收到web 响应：出现HTML页面有HTML表单的输入 input 类型(type) 为"text"，变数名称(name)为'bencao_name'，详见HTML模版templates/entry.html
 
 前端浏览器web 请求：用户选取指标後按了提交钮「开始」，则产生新的web 请求，按照form元素中定义的method='POST' action='/pick_a_medica'，以POST为方法，动作为/pick_a_medica的web 请求
 
