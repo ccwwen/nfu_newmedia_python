@@ -16,7 +16,8 @@
 * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.zh.html)
 * [time](https://docs.python.org/3/library/time.html)
 ### API
-* [API](http://api.jisuapi.com/bencao/detail?appkey=bdc8ee0bb0227112&detailid={n}&isdetailed={n})
+* [API](http://api.jisuapi.com/bencao/detail?appkey=bdc8ee0bb0227112&detailid=1&isdetailed=1)
+
 * [API使用示例](https://www.jisuapi.com/api/bencao/)
 ### Web App动作描述
 
