@@ -16,7 +16,8 @@
 * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.zh.html)
 * [time](https://docs.python.org/3/library/time.html)
 ### API
- http://api.jisuapi.com/bencao/detail?appkey=bdc8ee0bb0227112&detailid={n}&isdetailed={n}
+* [API](http://api.jisuapi.com/bencao/detail?appkey=bdc8ee0bb0227112&detailid={n}&isdetailed={n})
+* [API使用示例](https://www.jisuapi.com/api/bencao/)
 
 ## 作者成员：
 见[_team_.tsv](_team_/_team_.tsv)
