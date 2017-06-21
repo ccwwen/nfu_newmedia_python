@@ -19,6 +19,9 @@
 * [API](http://api.jisuapi.com/bencao/detail?appkey=bdc8ee0bb0227112&detailid=1&isdetailed=1)
 
 * [API使用示例](https://www.jisuapi.com/api/bencao/)
+## 数据
+data/bencao_betail
+总共有3316种药物
 ### Web App动作描述
 
 以下按web 请求（web request） - web 响应 时序说明
