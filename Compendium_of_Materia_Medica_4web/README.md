@@ -24,10 +24,14 @@
 * 总共有3316种药物
 ## 档
 ### Python档
-#### Compendium_of_Materia_Medica_4web.py
-唯一app档，可双击执行（若作业环境允许）或於命令行输入
+#### webapp_pick_a_medica.py
+#### pick_medica_value.py
+#### pick_a_medica_api.py
+可双击执行（若作业环境允许）或於命令行输入
 
-Compendium_of_Materia_Medica_4web.py 
+webapp_pick_a_medica.py
+pick_medica_value.py
+pick_a_medica_api.py
 
 执行
 
