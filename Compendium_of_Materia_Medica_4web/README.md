@@ -22,6 +22,24 @@
 ## 数据
 * [data/bencao_betail](https://raw.githubusercontent.com/vivianting/nfu_newmedia_python/master/Compendium_of_Materia_Medica_4web/data/bencao_detail)
 * 总共有3316种药物
+## 档
+### Python档
+#### Compendium_of_Materia_Medica_4web.py
+唯一app档，可双击执行（若作业环境允许）或於命令行输入
+
+Compendium_of_Materia_Medica_4web.py 
+
+执行
+
+### html模版档 放在目录templates下
+#### base.html
+基本flask html模版档
+
+#### entry.html
+flask html模版档，用户输入页使用 def entry_page() 'html': #使用了 entry.html
+
+#### results.html
+flask html模版档，用户输出结果页使用 def pick_a_medica() -> 'html': #使用了 results.html
 ### Web App动作描述
 
 以下按web 请求（web request） - web 响应 时序说明
