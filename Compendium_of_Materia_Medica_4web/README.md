@@ -16,12 +16,12 @@
 * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.zh.html)
 * [time](https://docs.python.org/3/library/time.html)
 ### API
-* [API](http://api.jisuapi.com/bencao/detail?appkey=bdc8ee0bb0227112&detailid=1&isdetailed=1)
+* [API](http://api.jisuapi.com/bencao/detail?appkey=bdc8ee0bb0227112&detailid={n}&isdetailed={n})
 
 * [API使用示例](https://www.jisuapi.com/api/bencao/)
 ## 数据
-data/bencao_betail
-总共有3316种药物
+* [data/bencao_betail](https://raw.githubusercontent.com/vivianting/nfu_newmedia_python/master/Compendium_of_Materia_Medica_4web/data/bencao_detail)
+* 总共有3316种药物
 ### Web App动作描述
 
 以下按web 请求（web request） - web 响应 时序说明
